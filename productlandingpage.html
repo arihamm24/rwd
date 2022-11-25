@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="productpage.css">
+    </head>
+    <body>
+        <header id="header">
+            <img id="header-img" src="https://www.freeiconspng.com/uploads/blood-claw-scratch-pictures-14.png" alt="3 jagged scars, as if from claws" />
+            <h1>Macabre Monthly</h1>
+            <nav id="nav-bar">
+              <a href="#promo" class="nav-link">Promo</a>
+              <a href="#subscribe" class="nav-link">Subscribe</a>
+              <a href="#tiers" class="nav-link">Tiers</a>
+            </nav>
+          </header>
+          <main>
+            <section id="promo">
+              <h3 id="promo"> This month's movie:<em> Smile</em></h3>
+              <video id="video" src="https://www.youtube.com/watch?v=BcDK7lkzzsU" ></video>
+              <p> Do you want exclusive access to the latest tickets for horror movies, like <em> Smile </em>?</p>
+              <p> Do you want first dibs on the<strong> best </strong>horror clothing and decor?</p>
+              <p> Do you want discounts on tickets to nationwide horror conventions, expos, and more?</p>
+              <p id="tagline"> Then Macabre Monthly is for you </p>
+            </section>
+            <section id="tiers">
+              <h3 id="tiers">Subscription Tiers</h3>
+              <p> <em>Macabre Monthly</em> is a monthly subscription service that allows the most avid horror fans to get their hands on the best possible tickets, interviews, and paraphernalia from all their favorite movies, subgenres, directors, and more!</p>
+                <div class="tier1">
+                    <div class="name"> <h4>Slasher Madness</h4></div>
+                    <div class="price">
+                      <p> $3.99 per month </p>
+                      <p>Great for casual enthusiasts!</p>
+                    </div>
+                    <div class="contents">
+                      <ul>
+                        <li>The latest and greatest merch from your favorite classic slashers</li>
+                        <li>Coupons for tickets to the newest premieres and conventions</li>
+                        <li>Bonus features like interviews, autographs, and props from classic slashers</li>
+                      </ul>
+                    </div>
+                  </div>
+              <div class="tier2">
+                    <div class="name"><h4>Gore Junkies</h4></div>
+                    <div class="price">
+                      <p> $4.99 per month </p>
+                      <p>Great for prospective filmmakers and long-term fans!</p>
+                    </div>
+                    <div class="contents">
+                    <ul>
+                      <li>All the goodies of the Slasher Madness tier <em>plus</em> behind the scenes photos and videos.</li>
+                      <li>VIP Passes at Conventions</li>
+                      <li>Special effects guides and tools: Fake blood, wound makeup, prosthetics, and more!</li>
+                    </ul>
+                    </div>
+              </div>
+              <div class="tier3">
+                  <div class="name"> <h4>Frequent Frightener</h4> </div>
+                  <div class="price">
+                    <p> $6.99 per month </p>
+                    <p>Great for horror critics, reviewers, and hardcore fans!</p>
+                  </div>
+                  <div class="contents">
+                    <ul>
+                      <li>All the Gore Junkies and Slasher Madness perks</li>
+                      <li>Business cards/contact info for horrpr actors, directors, historians, and content-creators.</li>
+                      <li>Card and board games based on the classics: Monopoly on Elm Street, Cards Against Halloween, and more!</li>
+                    </ul>
+                  </div>
+              </div>
+            </section>
+            <section id="subscribe">
+              <h3 id="subscribe">Subscribe</h3>
+              <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <fieldset class="intake">
+                <legend>Personal Info</legend>
+                <label for="name">Name: <input id="name" type="text" required placeholder="Johnny Appleseed"/> </label>
+                <label for="email">Email: <input id="email" name="email" type="email" required placeholder="1234@email.com"/> </label>
+                </fieldset>
+                <fieldset class="tierselect">
+                <legend>Select Subscription Tier</legend>
+                <label for="select-tier"><input type="radio" required id="select-tier"/> Slasher Madness </label>
+                <label for="select-tier"><input type="radio" required id="select-tier"/> Gore Junkies </label>
+                <label for="select-tier"><input type="radio" required id="select-tier"/> Frequent Frighteners </label>
+                </fieldset>
+                <fieldset>
+                  <legend>Optional Information</legend>
+                      <label>How did you here about us?</label> 
+            <select id="dropdown">
+              <option>(select one)</option>
+              <option>Google Search</option>
+              <option>Social Media</option>
+              <option>Youtube Ad</option>
+              <option>Referral from friend/relative</option>
+              <option>Horror Podcast/Youtube Channel</option>
+              <option>Other/Unsure</option>
+            </select>
+              <label> Favorite Subgenre</label> 
+            <select id="dropdown">
+              <option>(select one)</option>
+              <option>Splatter/Slasher</option>
+              <option>Horror Comedy</option>
+              <option>Gothic Horror</option>
+              <option>Horror Animation</option>
+              <option>Horror Sci-fi</option>
+              <option>Psychological/Thriller</option>
+              <option>Mystery</option>
+              <option>Other/Unsure</option>
+            </select> 
+             <label> Questions, Suggestions, Comments, etc.</label><textarea></textarea>      
+                </fieldset>
+                <input id="submit" type="submit"/>
+              </form>
+            </section>
+          </main>
+    </body>
+</html>

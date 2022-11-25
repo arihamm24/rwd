@@ -1,0 +1,93 @@
+*{
+    --text: rgb(153,0,0);
+    --bckgrnd: rgb(0,0,0)
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  #header-img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid var(--text);
+    top: 0;
+    width: 100%
+  }
+  header > nav{
+    font-family: ComicSansMS, sans-serif;
+  }
+  a{
+    color: var(--text);
+  }
+  a:hover{
+    color: rgb(255,25,25);
+  }
+  h1, h3, h4, h5, legend{
+    font-family: Chalkduster, ComicSansMS;
+    color: var(--text);
+  }
+  h3, legend{
+    font-size: 1.8rem;
+  }
+  section{
+    padding: 2px;
+    margin: auto;
+  }
+  p, li{
+    font-family: ComicSansMS, sans-serif;
+    color:black;
+  }
+  #tagline, p, li{
+    text-align: center;
+  }
+  #tagline{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  #subscribe, #tiers{
+    margin: 3px;
+    display: block;
+    text-align: center; 
+  }
+  #promo{
+    text-align: center;
+  }
+  #form{
+    margin: auto;
+    padding: 5px;
+  }
+  fieldset{
+    border: 3px solid var(--text);
+  }
+  label{
+    display: block;
+    padding: 2px;
+    font-family: ComicSansMS;
+  }
+  input[type="submit"]{
+    width: 10%;
+    height: 5%;
+  }
+  input[type="radio"]{
+    font-family:ComicSansMS;
+  }
+  .tier1, .tier2, .tier3{
+    border: 2px solid var(--text);
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .name, .price, .contents{
+    margin: 3px;
+    display: grid;
+    align-items: center;
+  
+  }
+  
