@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+  }
+  main{
+    color: rgb(0,255,0);
+    font-family: TrebuchetMS, sans-serif;
+  }
+  header{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+  a{
+    color:rgb(250,255,0);
+  }
+  a:hover{
+    color:rgb(255,0,0);
+  }
+  p, li{
+    font-size:1rem;
+  }
+  nav{
+    padding: 15px;
+  }
+  .nav-link{
+    display: inline-block;
+    font-size: 0.9rem;
+  }
+  .main-section{
+    padding: 20px;
+    border-style: dashed;
+  }
+  @media (min-width="device-width") and (max-width=500px){
+    .main-section{
+      width: 300px;
+    }
+  }
+  
